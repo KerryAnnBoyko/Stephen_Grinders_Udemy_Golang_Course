@@ -1,0 +1,12 @@
+/* Maps:
+    * all keys must be the same type
+		* all values must be the same type.
+		* can be iterated over
+		* don't need to know all keys at compile time.
+		* passes by reference!
+	Structs:
+	  * Values can be different type
+		* Keys don't support indexing (and therefore no iterating)
+		* You need to know all fields at compile time
+		* passes by value! (to pass by reference, use the pointer)
+*/
